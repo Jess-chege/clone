@@ -1,5 +1,12 @@
 import streamlit as st
 
+st.title("Home Page 🏠")
+st.write("Welcome to the main page!")
+
+st.sidebar.page_link("pages/deposit.py", label="Go to deposit")
+#st.sidebar.page_link("pages/page2.py", label="Go to Page 2")
+
+
 # Custom CSS for Styling
 st.markdown("""
     <style>
